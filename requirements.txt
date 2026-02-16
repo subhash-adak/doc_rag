@@ -1,0 +1,43 @@
+# FastAPI
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# Database
+mysql-connector-python==8.3.0
+SQLAlchemy==2.0.27
+alembic==1.13.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+python-dotenv==1.0.1
+pydantic==2.12.5
+pydantic-settings==2.12.0
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# AI/ML
+langchain==1.2.7
+langchain-core==1.2.7
+langchain-text-splitters==1.1.0
+pinecone-client==3.1.0
+
+# Embedding
+sentence-transformers==2.3.1
+hf-xet==1.2.0
+torch>=2.2.0
+
+# Groq
+groq==1.0.0
+
+# Utilities
+aiofiles==23.2.1
+
+slowapi>=0.1.9
+requests>=2.32.5
